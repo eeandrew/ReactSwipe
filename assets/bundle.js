@@ -19806,7 +19806,8 @@
 			key: 'render',
 			value: function render() {
 				var tranformStyle = {
-					transform: 'translateX(' + this.state.translateX + 'px' + ')',
+					transform: 'translate3D(' + this.state.translateX + 'px' + ',0,0' + ')',
+					//transform : 'translateX(' + this.state.translateX  + 'px' +')',
 					transitionTimingFunction: 'cubic-bezier(0.25, 0.46, 0.45, 0.94)',
 					transitionDuration: this.state.transitionDuration + 'ms'
 				};
