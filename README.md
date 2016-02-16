@@ -6,7 +6,7 @@
 ![image](https://github.com/eeandrew/ReadmeResource/blob/master/img/reactswipe/react-swipe-demo.gif)
 
 ##TODO
-基于react的state数据改变来渲染dom，在手机上实测动画非常卡。
+基于react的state数据改变来渲染dom，在手机上实测动画非常卡(**已解决**)。
 * [x] 提升动画流畅度 
 * [ ]  提供滑动位置接口
 * [ ] 提供style更改接口
